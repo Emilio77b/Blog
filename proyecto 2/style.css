@@ -1,7 +1,38 @@
-h1 {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
     display:flex;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    padding:1em;
+}
+
+.header { 
+    flex-direction: column;
     font-family: arial,sans-ser;
     justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    border: 1px solid blue;
+    padding: 2em;
+    
+    
+}
+
+.header p {
+    text-align: center;
     color: blue;
+}
+
+.main_title {
+    font-size:3rem;
 }
