@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:1em;
+}
+
+.header { 
+    flex-direction: column;
+    font-family: arial,sans-ser;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    border: 1px solid blue;
+    padding: 2em;
+}
+.cabecera {
+    width: 100%;
+    height: 30px;
+    background-color:blue;
+    color:white;
+    font-size:3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera p {
+    font-size:2rem;
+    color: black;
+}
+
+.header p {
+    text-align: center;
+    color: blue;
+}
+
+.main_title {
+    font-size:0.5 rem;
+}
